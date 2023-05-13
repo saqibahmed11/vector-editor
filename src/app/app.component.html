@@ -2,14 +2,10 @@
   <h1>Vector Graphics Editor</h1>
   <div class="vge-container">
     <div class="vge-shapes">
-      <button (click)="selectTool('select')">Select</button>
-      <button (click)="drawTool('draw')">Draw</button>
+      <app-vgr-shapes-menu></app-vgr-shapes-menu>
     </div>
     <div class="vge-canvas">
-      <svg width="800" height="600">
-        <!-- Add your SVG elements here -->
-        <rect x="100" y="100" width="200" height="100" fill="#FF0000"></rect>
-      </svg>
+      <app-vgr-canvas></app-vgr-canvas>
     </div>
   </div>
 </div>

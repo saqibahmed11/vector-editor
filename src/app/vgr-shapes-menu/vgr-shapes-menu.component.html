@@ -1,0 +1,17 @@
+<div>
+  <h2>Shape Menu</h2>
+  <label>Select Shape:</label>
+  <select [(ngModel)]="selectedShape">
+    <option value="circle">Circle</option>
+  </select>
+  <br><br>
+  <label>Select Color:</label>
+  <select [(ngModel)]="selectedColor">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select>
+  <br><br>
+
+  <button (click)="drawShape()">Draw Shape</button>
+</div>
