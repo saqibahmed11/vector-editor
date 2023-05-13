@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: SansSerif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.vge-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.vge-shapes {
+  width: 200px;
+  padding: 10px;
+  background-color: #F2F2F2;
+}
+
+.vge-canvas {
+  flex: 1;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+}
